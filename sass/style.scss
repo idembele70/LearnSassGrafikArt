@@ -3,3 +3,18 @@ html {
     background-color: red;
     margin: 1rem;
 }
+
+.table {
+ width: 10%;
+ @media screen and (max-width:100px){
+     color: blue;
+ }
+
+ td {
+     color: red;
+     @media screen and (max-width:100px){
+         color: yellow;
+     }
+ }
+}
+

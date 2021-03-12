@@ -1,0 +1,13 @@
+video Installation : 
+- Installer Sass
+- Creer le Reset
+-  compiler le scss en css
+-- compiler le sccs en css en laissant ouvert 
+
+Video Imbrication : 
+imbriquer sur deux niveau
+creer un bouton
+lui associe un hover
+lui associer une class parent
+lui associer un media
+imbriquer une propriete css 

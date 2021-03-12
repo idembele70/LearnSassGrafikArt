@@ -79,4 +79,21 @@ html {
   margin: 1rem;
 }
 
+.table {
+  width: 10%;
+}
+@media screen and (max-width: 100px) {
+  .table {
+    color: blue;
+  }
+}
+.table td {
+  color: red;
+}
+@media screen and (max-width: 100px) {
+  .table td {
+    color: yellow;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
