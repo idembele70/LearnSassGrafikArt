@@ -1,20 +1,28 @@
 @import 'libs/reset.scss';
 html {
-    background-color: red;
+    background-color: rgb(26, 23, 23);
     margin: 1rem;
+    color: #FFF;
+}
+%btn{
+    text-decoration: none;
+    border-radius:3px ;
+    padding: 5px 12px;
+    color: #FFF;
 }
 
-.table {
- width: 10%;
- @media screen and (max-width:100px){
-     color: blue;
- }
-
- td {
-     color: red;
-     @media screen and (max-width:100px){
-         color: yellow;
-     }
- }
+.btn{
+    @extend %btn;
+    background: rgb(87, 148, 177);
+    &:hover{
+        background: rgb(5, 105, 151);
+    }
 }
 
+.btn-danger{
+    @extend %btn;
+    background: rgb(163, 36, 36);
+    &:hover{
+        background: rgb(196, 1, 1);
+    }
+}

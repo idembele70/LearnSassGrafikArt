@@ -10,4 +10,21 @@ creer un bouton
 lui associe un hover
 lui associer une class parent
 lui associer un media
-imbriquer une propriete css 
+imbriquer une propriete css #
+
+video Heritage
+creer un bouton call-to-action et lui etendre les propriete de btn
+supprimer tout sauf html et body
+creer 2 bouttons 1 nommée btn et un autre nommée btn-danger
+btn padding 5px et 12px, background color blueclair
+color blanc et hover bleufoncer
+etendre les propriétes de btn sur btn-danger
+et ajouter background rougeclair a btn-danger et un rougefonce
+au hover de btn-danger
+ensuite mettre un text-decoration none a btn un border-radius 3px;
+
+creer un faux selécteur nommée btn
+mettre dans le faux selécteur le padding le color le border-radius
+et le text decoration de .btn et etendre le faut selecteur sur btn et btn-danger
+dans le index html créer une div .card dans lequel on met .card-actions
+dans .card-actions on met deux div .card-action et .card-cancel

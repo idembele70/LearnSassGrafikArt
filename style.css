@@ -75,25 +75,30 @@ th {
 }
 
 html {
-  background-color: red;
+  background-color: #1a1717;
   margin: 1rem;
+  color: #FFF;
 }
 
-.table {
-  width: 10%;
+.btn-danger, .btn {
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #FFF;
 }
-@media screen and (max-width: 100px) {
-  .table {
-    color: blue;
-  }
+
+.btn {
+  background: #5794b1;
 }
-.table td {
-  color: red;
+.btn:hover {
+  background: #056997;
 }
-@media screen and (max-width: 100px) {
-  .table td {
-    color: yellow;
-  }
+
+.btn-danger {
+  background: #a32424;
+}
+.btn-danger:hover {
+  background: #c40101;
 }
 
 /*# sourceMappingURL=style.css.map */
