@@ -80,25 +80,42 @@ html {
   color: #FFF;
 }
 
-.btn-danger, .btn {
+body {
+  padding: 20px;
+}
+
+.btn-danger, .card-cancel, .btn, .card-action {
   text-decoration: none;
   border-radius: 3px;
   padding: 5px 12px;
   color: #FFF;
 }
 
-.btn {
-  background: #5794b1;
+.btn, .card-action {
+  background: #698fd6;
 }
-.btn:hover {
+.btn:hover, .card-action:hover {
   background: #056997;
 }
 
-.btn-danger {
+.btn-danger, .card-cancel {
   background: #a32424;
 }
-.btn-danger:hover {
+.btn-danger:hover, .card-cancel:hover {
   background: #c40101;
+}
+
+.card {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.card-actions {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

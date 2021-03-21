@@ -28,3 +28,24 @@ mettre dans le faux selécteur le padding le color le border-radius
 et le text decoration de .btn et etendre le faut selecteur sur btn et btn-danger
 dans le index html créer une div .card dans lequel on met .card-actions
 dans .card-actions on met deux div .card-action et .card-cancel
+dans card-action on met ok et dans card-cancel on met supprimer
+étendre le propriété de btn sur card-action
+étendre le propriété de btn-danger sur card-cancel
+mettre sur card-actions display flex
+sur .card mettre padding 10px, box shadow  0 1 5 rgba(0 0 0 0.2)
+mettre sur .card border-radius de 3px;
+mettre un padding 20px sur body
+creer un faux selecter nommé shadow y mettre le box shadow de .card
+étendre le faux selecteur shadow sur card
+étendre le faux selecteur shadow sur card-cancel
+
+
+vidéo Les variables 5/11
+créer une variables nommé primary lui associe rgb(105, 143, 214)
+remplacer le backgroun de .btn par la variable primary
+creer une variable nommée padding lui associé 20px
+remplacer le padding de body par la variable padding et faire une addition
+    la variable padding et 10px
+trouver la technique pour additionner la variable padding et 2rem
+creer dans libs un fichier sass nommée responsive
+dans ce 

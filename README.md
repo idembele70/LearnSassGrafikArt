@@ -1,3 +1,3 @@
 # LearnSassGrafikArt
 
-stop : 12/03/2020 heritage 5.45 de Sass
+stop : 21/03/2020 les variables 2.20 de Sass à 12H10

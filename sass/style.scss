@@ -1,8 +1,16 @@
 @import 'libs/reset.scss';
+
+$primary : rgb(105, 143, 214);
+$padding : 20px;
+
 html {
     background-color: rgb(26, 23, 23);
     margin: 1rem;
     color: #FFF;
+}
+
+body{
+    padding: $padding;
 }
 %btn{
     text-decoration: none;
@@ -13,10 +21,11 @@ html {
 
 .btn{
     @extend %btn;
-    background: rgb(87, 148, 177);
+    background: $primary;
     &:hover{
         background: rgb(5, 105, 151);
     }
+   
 }
 
 .btn-danger{
@@ -25,4 +34,23 @@ html {
     &:hover{
         background: rgb(196, 1, 1);
     }
+}
+%shadow{
+    box-shadow: 0 1px 5px rgb(0, 0, 0, 0.5);
+    
+}
+.card{
+    @extend %shadow;
+    padding: 10px;
+    border-radius: 3px;
+}
+.card-action {
+    @extend .btn;
+}
+.card-cancel {
+    @extend .btn-danger;
+}
+
+.card-actions{
+    display: flex;
 }
