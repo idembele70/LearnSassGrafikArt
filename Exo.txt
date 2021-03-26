@@ -5,12 +5,12 @@ video Installation :
 -- compiler le sccs en css en laissant ouvert 
 
 Video Imbrication : 
-imbriquer sur deux niveau
 creer un bouton
+imbriquer sur deux niveau #####
 lui associe un hover
 lui associer une class parent
 lui associer un media
-imbriquer une propriete css #
+imbriquer une propriete css #####
 
 video Heritage
 creer un bouton call-to-action et lui etendre les propriete de btn
@@ -42,10 +42,19 @@ creer un faux selecter nommé shadow y mettre le box shadow de .card
 
 vidéo Les variables 5/11
 créer une variables nommé primary lui associe rgb(105, 143, 214)
-remplacer le backgroun de .btn par la variable primary
+remplacer le background de .btn par la variable primary
 creer une variable nommée padding lui associé 20px
 remplacer le padding de body par la variable padding et faire une addition
     la variable padding et 10px
 trouver la technique pour additionner la variable padding et 2rem
 creer dans libs un fichier sass nommée responsive
-dans ce 
+dans le fichier reponsive créer une variable nommée medium-up
+et lui associer only screen and (min-width: 768px);
+importer responsive dans style scss
+dans style scss créer un media avec la variable medium up 
+tout les boutons prennent une largeur de 100%
+creer une variable nommé medium et lui donne 768px
+ensuite remplace le 768px de la variable medium-up par medium
+remplacer medium par 200px dans style scss ensuite voir si sa marche
+mettre defaut dans reponsive apres medium et voir si la valeur d'ecrasement à remplacer l'autre valeur
+creer une variable large et le mettre à 1000px par defaut

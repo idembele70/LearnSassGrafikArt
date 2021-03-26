@@ -1,5 +1,6 @@
 @import 'libs/reset.scss';
-
+@import 'libs/responsive.scss';
+$medium :200px;
 $primary : rgb(105, 143, 214);
 $padding : 20px;
 
@@ -53,4 +54,10 @@ body{
 
 .card-actions{
     display: flex;
+}
+
+@media #{$medium-up}{
+    .btn{
+        width: 100%;
+    }
 }
