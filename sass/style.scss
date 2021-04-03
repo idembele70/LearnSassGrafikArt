@@ -1,7 +1,8 @@
+$medium : 500px;
 @import 'libs/reset.scss';
 @import 'libs/responsive.scss';
 $medium :200px;
-$primary : rgb(105, 143, 214);
+$primary : #FF0000;
 $padding : 20px;
 
 html {
@@ -24,7 +25,7 @@ body{
     @extend %btn;
     background: $primary;
     &:hover{
-        background: rgb(5, 105, 151);
+        background: rgba($primary, .5);
     }
    
 }
@@ -37,8 +38,7 @@ body{
     }
 }
 %shadow{
-    box-shadow: 0 1px 5px rgb(0, 0, 0, 0.5);
-    
+    box-shadow:0 1px 5px rgb(0, 0, 0, 0.5);
 }
 .card{
     @extend %shadow;
@@ -56,7 +56,10 @@ body{
     display: flex;
 }
 
-@media #{$medium-up}{
+@media #{$medium-down}{
+    .card-actions {
+        display: block;
+    }
     .btn{
         width: 100%;
     }

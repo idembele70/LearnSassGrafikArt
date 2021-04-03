@@ -92,10 +92,10 @@ body {
 }
 
 .btn, .card-action {
-  background: #698fd6;
+  background: #FF0000;
 }
 .btn:hover, .card-action:hover {
-  background: #056997;
+  background: rgba(255, 0, 0, 0.5);
 }
 
 .btn-danger, .card-cancel {
@@ -118,7 +118,11 @@ body {
   display: flex;
 }
 
-@media only screen and (min-width : 768px) {
+@media only screen and (max-width : 500px) {
+  .card-actions {
+    display: block;
+  }
+
   .btn, .card-action {
     width: 100%;
   }

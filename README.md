@@ -1,3 +1,3 @@
 # LearnSassGrafikArt
 
-stop : 26/03/2020 les variables 5.50 de Sass à 18H17
+stop : 03/04/2021 les variables 11.00 de Sass à 23H11

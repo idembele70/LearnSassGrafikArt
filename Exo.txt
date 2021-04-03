@@ -56,5 +56,16 @@ tout les boutons prennent une largeur de 100%
 creer une variable nommé medium et lui donne 768px
 ensuite remplace le 768px de la variable medium-up par medium
 remplacer medium par 200px dans style scss ensuite voir si sa marche
-mettre defaut dans reponsive apres medium et voir si la valeur d'ecrasement à remplacer l'autre valeur
-creer une variable large et le mettre à 1000px par defaut
+mettre defaut dans reponsive apres medium et voir si la valeur d'ecrasement 
+à remplacer l'autre valeur creer une variable large et le mettre à 1000px par defaut
+creer une variable medium-down qui est pareil que medium-up sauf qu'il 
+a un max-width qui remplace le min-width
+creer deux breakpoint avec un large-up et un large-down en prenant les consigne de medium
+up et down
+mettre un medium down sur les boutons avec une largeur de 100%
+mettre medium down sur card action qui prend un display block
+dans style scss remplace la valeur de medium par 500px
+utiliser la fonction darken pour assombrir la couleur de fond de primary dans .btn
+utiliser la fonction darken pour lighten la couleur de fond de primary dans .btn
+definir la couleur de primary a #FF0000
+utiliser la fonction rgba sur opacity et le rendre opaque de 50%
